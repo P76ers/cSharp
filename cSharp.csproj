@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
+            Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{F4B87403-9950-4180-B6A2-EF74F9452475}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>cSharp</RootNamespace>
+        <AssemblyName>cSharp</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Aufgaben\A3_1.cs"/>
+        <Compile Include="Aufgaben\A3_3.cs"/>
+        <Compile Include="Aufgaben\A3_4.cs"/>
+        <Compile Include="Aufgaben\A4_1.cs"/>
+        <Compile Include="Aufgaben\A4_2.cs"/>
+        <Compile Include="Aufgaben\A4_3.cs"/>
+        <Compile Include="Aufgaben\A5_1.cs"/>
+        <Compile Include="Aufgaben\A5_2.cs"/>
+        <Compile Include="Aufgaben\A5_3.cs"/>
+        <Compile Include="Aufgaben\A5_4.cs"/>
+        <Compile Include="Aufgaben\A5_5.cs"/>
+        <Compile Include="Aufgaben\A5_6.cs"/>
+        <Compile Include="Aufgaben\A5_7.cs"/>
+        <Compile Include="Aufgaben\A5_8.cs"/>
+        <Compile Include="Aufgaben\A6_1\Punkt.cs"/>
+        <Compile Include="Aufgaben\A6_1\Punkte.cs"/>
+        <Compile Include="Aufgaben\A6_2\Zahl.cs"/>
+        <Compile Include="Aufgaben\A6_2\Zahlen.cs"/>
+        <Compile Include="Aufgaben\U5_1v\Kunde.cs" />
+        <Compile Include="Aufgaben\U5_1v\Verkaeufer.cs" />
+        <Compile Include="Aufgaben\U5_1v\Vertrag.cs" />
+        <Compile Include="Aufgaben\U5_1v\VertragApp.cs" />
+        <Compile Include="Aufgaben\U5_1\App.cs" />
+        <Compile Include="Aufgaben\U5_1\Kunde.cs" />
+        <Compile Include="Aufgaben\U5_1\Verkaeufer.cs" />
+        <Compile Include="Aufgaben\U5_1\Vertrag.cs" />
+        <Compile Include="Aufgaben\U6_2\App.cs" />
+        <Compile Include="Aufgaben\U6_2\Auswertung.cs" />
+        <Compile Include="Aufgaben\_A8_1\App.cs" />
+        <Compile Include="Aufgaben\_A8_1\Person.cs" />
+        <Compile Include="Aufgaben\_A6_3\App.cs" />
+        <Compile Include="Aufgaben\_A6_3\IPAdresse.cs" />
+        <Compile Include="Aufgaben\A6_4\Mathe.cs" />
+        <Compile Include="Aufgaben\A6_4\MatheApp.cs" />
+        <Compile Include="Aufgaben\A7_1\App.cs" />
+        <Compile Include="Aufgaben\A7_1\Grundform.cs" />
+        <Compile Include="Aufgaben\A7_1\Kreis.cs" />
+        <Compile Include="Aufgaben\A7_1\Viereck.cs" />
+        <Compile Include="Aufgaben\A7_2\App.cs" />
+        <Compile Include="Aufgaben\A7_2\Delphin.cs" />
+        <Compile Include="Aufgaben\A7_2\Elefant.cs" />
+        <Compile Include="Aufgaben\A7_2\IGeschwindigkeit.cs" />
+        <Compile Include="Aufgaben\A7_2\ITauchzeit.cs" />
+        <Compile Include="Aufgaben\A7_2\Landtier.cs" />
+        <Compile Include="Aufgaben\A7_2\Nashorn.cs" />
+        <Compile Include="Aufgaben\A7_2\Tier.cs" />
+        <Compile Include="Aufgaben\A7_2\Wal.cs" />
+        <Compile Include="Aufgaben\A7_2\Wassertier.cs" />
+        <Compile Include="Aufgaben\U3.3\Anzeige.cs" />
+        <Compile Include="Aufgaben\U3.3\App.cs" />
+        <Compile Include="Aufgaben\U3.3\Kreis.cs" />
+        <Compile Include="Aufgaben\U3.3\Linie.cs" />
+        <Compile Include="Aufgaben\U3.3\Punkt.cs" />
+        <Compile Include="Aufgaben\U3.3\Rechteck.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\Anzeige.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\App.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\Kreis.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\Linie.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\Punkt.cs" />
+        <Compile Include="Aufgaben\U3.3_v2\Rechteck.cs" />
+        <Compile Include="Aufgaben\V1_1\Tier.cs" />
+        <Compile Include="Aufgaben\V1_1\Tiere.cs" />
+        <Compile Include="Aufgaben\V1_2\Bank.cs" />
+        <Compile Include="Aufgaben\V1_2\Kunde.cs" />
+        <Compile Include="Grundlagen\Arrays.cs" />
+        <Compile Include="Grundlagen\Konsole.cs" />
+        <Compile Include="Grundlagen\Kontrollstrukturen.cs" />
+        <Compile Include="Grundlagen\Operatoren.cs" />
+        <Compile Include="Grundlagen\Schleifen.cs" />
+        <Compile Include="Grundlagen\SwitchBeispiel.cs" />
+        <Compile Include="Grundlagen\Variablen.cs" />
+        <Compile Include="OOP\abstrakteKlassen\Dwarf.cs" />
+        <Compile Include="OOP\abstrakteKlassen\GrafikObjekt.cs" />
+        <Compile Include="OOP\abstrakteKlassen\GrafikProgramm.cs" />
+        <Compile Include="OOP\abstrakteKlassen\Humanoid.cs" />
+        <Compile Include="OOP\abstrakteKlassen\Kreis.cs" />
+        <Compile Include="OOP\abstrakteKlassen\Orc.cs" />
+        <Compile Include="OOP\AutoScout\Auto.cs" />
+        <Compile Include="OOP\AutoScout\AutoScout.cs" />
+        <Compile Include="OOP\AutoScout\Werkstatt.cs" />
+        <Compile Include="OOP\Komposition\Auto.cs" />
+        <Compile Include="OOP\Komposition\Buchseite.cs" />
+        <Compile Include="OOP\Komposition\Motor.cs" />
+        <Compile Include="OOP\Komposition\Reifen.cs" />
+        <Compile Include="OOP\Komposition\Roman.cs" />
+        <Compile Include="OOP\Kunde\Bank.cs" />
+        <Compile Include="OOP\Kunde\Kunde.cs" />
+        <Compile Include="OOP\Person\Person.cs" />
+        <Compile Include="OOP\Person\Personen.cs" />
+        <Compile Include="OOP\Pizza\Pizza.cs" />
+        <Compile Include="OOP\Pizza\Pizzeria.cs" />
+        <Compile Include="OOP\Schule\Fach.cs" />
+        <Compile Include="OOP\Schule\Klasse.cs" />
+        <Compile Include="OOP\Schule\Lehrer.cs" />
+        <Compile Include="OOP\Schule\Schueler.cs" />
+        <Compile Include="OOP\Schule\Schule.cs" />
+        <Compile Include="OOP\SpielerMannschaft\Mannschaft.cs" />
+        <Compile Include="OOP\SpielerMannschaft\Spieler.cs" />
+        <Compile Include="OOP\Teilnehmer\TeilnehmerVerwaltung.cs" />
+        <Compile Include="OOP\Teilnehmer\Teilnehmer.cs" />
+        <Compile Include="OOP\UML\Diagram.cs" />
+        <Compile Include="OOP\UML\Diagramme.cs" />
+        <Compile Include="OOP\Vererbung\App.cs" />
+        <Compile Include="OOP\Vererbung\Kunde.cs" />
+        <Compile Include="OOP\Vererbung\Person.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Bilder\10.3-1.png" />
+        <Content Include="Bilder\10.3-2.png" />
+        <Content Include="Bilder\10.3-3.png" />
+        <Content Include="Bilder\10.3-4.png" />
+        <Content Include="Bilder\10.3-5.png" />
+        <Content Include="Bilder\10.4-1.png" />
+        <Content Include="Bilder\10.4-2.png" />
+        <Content Include="Bilder\10.5-1.png" />
+        <Content Include="Bilder\10.5-2.png" />
+        <Content Include="Bilder\10.5-3.png" />
+        <Content Include="Bilder\11.3.png" />
+        <Content Include="Bilder\11.4-1.png" />
+        <Content Include="Bilder\11.4-2.png" />
+        <Content Include="Bilder\12.1.png" />
+        <Content Include="Bilder\12.2.png" />
+        <Content Include="Bilder\12.3-1.png" />
+        <Content Include="Bilder\12.3-2.png" />
+        <Content Include="Bilder\12.4-1.png" />
+        <Content Include="Bilder\12.4-2.png" />
+        <Content Include="Bilder\12.4-3.png" />
+        <Content Include="Bilder\13.1.png" />
+        <Content Include="Bilder\13.2-1.png" />
+        <Content Include="Bilder\13.2-2.png" />
+        <Content Include="Bilder\14.1-1.png" />
+        <Content Include="Bilder\14.1-2.png" />
+        <Content Include="Bilder\14.2-1.png" />
+        <Content Include="Bilder\14.2-2.png" />
+        <Content Include="Bilder\5.9-1.png" />
+        <Content Include="Bilder\5.9-2.png" />
+        <Content Include="Bilder\9.2-1.png" />
+        <Content Include="Bilder\9.2-2.png" />
+        <Content Include="Bilder\9.3-1.png" />
+        <Content Include="Bilder\9.3-2.png" />
+        <Content Include="Bilder\9.5-1.png" />
+        <Content Include="Bilder\9.5-2.png" />
+        <Content Include="Bilder\9.5-3.png" />
+        <Content Include="Bilder\9.5-4.png" />
+        <Content Include="Bilder\u3.3.jpg" />
+        <Content Include="readme.md" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
